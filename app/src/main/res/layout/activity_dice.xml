@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiceActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of dice:"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/button_d4"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D4"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_d6"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D6"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/button_d8"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D8"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/button_d10"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D10"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_d12"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D12"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/button_d20"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="D20"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_roll"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="80dp"
+            android:text="Choose a dice"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
