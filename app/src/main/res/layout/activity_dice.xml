@@ -6,84 +6,126 @@
     tools:context=".DiceActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Type of dice:"
-            android:textColor="#ffffff"
+            android:textColor="#000"
             android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button_d4"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D4"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/button_d6"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D6"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
 
         <Button
             android:id="@+id/button_d8"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D8"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button_d10"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D10"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/button_d12"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D12"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
 
         <Button
             android:id="@+id/button_d20"
             android:layout_width="120dp"
             android:layout_height="80dp"
+            android:layout_weight="1"
             android:text="D20"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4">
 
-        <Button
-            android:id="@+id/button_roll"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="80dp"
-            android:text="Choose a dice"
-            android:textSize="30sp" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button_roll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Choose a dice"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
+
+
