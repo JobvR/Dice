@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DiceActivity">
+    tools:context=".DiceActivity"
+    android:background="@mipmap/background5">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,10 +12,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Type of dice:"
-            android:textColor="#000"
-            android:textSize="16sp" />
+            android:layout_height="5dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -27,7 +25,12 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D4"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_d6"
@@ -35,8 +38,12 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D6"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50"/>
 
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_d8"
@@ -44,8 +51,13 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D8"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50" />
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,7 +69,12 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D10"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_d12"
@@ -65,8 +82,12 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D12"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50" />
 
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_d20"
@@ -74,8 +95,13 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="D20"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:background="@mipmap/transparent50" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -107,8 +133,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:text="Choose a dice"
-                android:textSize="30sp" />
+                android:text="Choose \na dice"
+                android:textSize="35sp"
+                android:background="@mipmap/transparent50"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -127,5 +154,3 @@
     </LinearLayout>
 
 </LinearLayout>
-
-
