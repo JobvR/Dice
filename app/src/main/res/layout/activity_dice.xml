@@ -2,27 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/background3"
     android:orientation="vertical"
-    tools:context=".DiceActivity"
-    android:background="@mipmap/background5">
+    tools:context=".DiceActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="10dp"></LinearLayout>
-    <LinearLayout
+
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_gravity="center_horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:gravity="center_horizontal"
-            android:text="Dice"
-            android:textColor="#ffffff"
-            android:textSize="35dp"/>
-
-    </LinearLayout>
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Dice"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
 
 
     <LinearLayout
@@ -34,9 +27,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D4"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50"/>
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="5dp"
@@ -47,9 +40,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D6"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50"/>
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="5dp"
@@ -60,9 +53,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D8"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <TextView
@@ -78,9 +71,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D10"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50"/>
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="5dp"
@@ -91,9 +84,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D12"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50" />
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="5dp"
@@ -104,9 +97,9 @@
             android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:background="@mipmap/transparent75"
             android:text="D20"
-            android:textSize="35sp"
-            android:background="@mipmap/transparent50" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -120,16 +113,16 @@
         android:weightSum="4">
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="2"
             android:orientation="vertical"
             android:weightSum="4">
 
@@ -143,9 +136,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
+                android:background="@mipmap/transparent75"
                 android:text="Choose \na dice"
-                android:textSize="35sp"
-                android:background="@mipmap/transparent50"/>
+                android:textSize="35sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -155,9 +148,9 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
         </LinearLayout>
 
