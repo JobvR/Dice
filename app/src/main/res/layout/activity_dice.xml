@@ -7,13 +7,20 @@
     android:background="@mipmap/background5">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="5dp"/>
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:text="Dice"
+            android:textColor="#ffffff"
+            android:textSize="35dp"/>
+
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -101,7 +108,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"></LinearLayout>
+        android:layout_height="50dp"></LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
